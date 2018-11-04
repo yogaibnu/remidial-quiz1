@@ -10,4 +10,8 @@
  */
 public class Penumpang {
     private String nama;
+    
+    public Penumpang() {
+        
+    }
 }
