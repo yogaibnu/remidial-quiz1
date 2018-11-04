@@ -9,5 +9,5 @@
  * @author YOGA
  */
 public class Penumpang {
-    
+    private String nama;
 }
