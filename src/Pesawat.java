@@ -50,5 +50,7 @@ public class Pesawat {
         this.jadwal = jadwal;
     }
     
-    
+    public int totalBiaya(int biaya, int jumlah) {
+        return biaya*jumlah;
+    }
 }
