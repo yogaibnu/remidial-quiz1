@@ -17,4 +17,38 @@ public class Pesawat {
     public Pesawat() {
         
     }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public int getJumlah() {
+        return jumlah;
+    }
+
+    public void setJumlah(int jumlah) {
+        this.jumlah = jumlah;
+    }
+
+    public int getBiaya() {
+        return biaya;
+    }
+
+    public void setBiaya(int biaya) {
+        this.biaya = biaya;
+    }
+
+    public Jadwal getJadwal() {
+        return jadwal;
+    }
+
+    public void setJadwal(Jadwal jadwal) {
+        this.jadwal = jadwal;
+    }
+    
+    
 }
