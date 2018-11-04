@@ -9,5 +9,7 @@
  * @author YOGA
  */
 public class Jadwal {
+    private String jadwal;
+    private String tujuan;
     
 }
