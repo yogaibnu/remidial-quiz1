@@ -25,7 +25,7 @@ public class Penumpang {
     
     public String info() {
         String info = "";
-        info += "Namma: " + nama + "\n";
+        info += "Nama: " + nama + "\n";
         return info;
     }
 }
