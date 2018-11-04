@@ -9,5 +9,9 @@
  * @author YOGA
  */
 public class Pesawat {
+    private String nama;
+    private int jumlah;
+    private int biaya;
+    private Jadwal jadwal;
     
 }
