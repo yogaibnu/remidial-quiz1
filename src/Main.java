@@ -29,7 +29,7 @@ public class Main {
             pembayaran.setPesawat(pesawat);
 
             System.out.println(pembayaran.info());
-        } catch(Exception e){
+        }catch(Exception e){
             System.out.println();
         }
     }
