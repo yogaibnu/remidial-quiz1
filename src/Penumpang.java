@@ -14,4 +14,14 @@ public class Penumpang {
     public Penumpang() {
         
     }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    
+    
 }
