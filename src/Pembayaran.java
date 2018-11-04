@@ -32,5 +32,10 @@ public class Pembayaran {
         this.pesawat = pesawat;
     }
     
-    
+    public String info() {
+        String info = "";
+        info += penumpang.info();
+        info += pesawat.info();
+        return info;
+    }
 }
