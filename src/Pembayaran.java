@@ -9,5 +9,7 @@
  * @author YOGA
  */
 public class Pembayaran {
+    private Penumpang penumpang;
+    private Pesawat pesawat;
     
 }
