@@ -15,4 +15,22 @@ public class Pembayaran {
     public Pembayaran() {
         
     }
+
+    public Penumpang getPenumpang() {
+        return penumpang;
+    }
+
+    public void setPenumpang(Penumpang penumpang) {
+        this.penumpang = penumpang;
+    }
+
+    public Pesawat getPesawat() {
+        return pesawat;
+    }
+
+    public void setPesawat(Pesawat pesawat) {
+        this.pesawat = pesawat;
+    }
+    
+    
 }
