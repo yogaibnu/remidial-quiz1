@@ -53,4 +53,14 @@ public class Pesawat {
     public int totalBiaya(int biaya, int jumlah) {
         return biaya*jumlah;
     }
+    
+    public String info() {
+        String info = "";
+        info += "Nama Maskapai: " + nama + "\n";
+        info += "Biaya Tiket: " + biaya + "\n";
+        info += jadwal.info();
+        info += "Jumlah Tiket: " + jumlah + "\n";
+        info += "Total Pembayaran: " + totalBiaya(biaya, jumlah) + "\n";
+        return info;
+    }
 }
