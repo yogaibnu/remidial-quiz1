@@ -8,6 +8,6 @@
  *
  * @author YOGA
  */
-public class Tiket {
+public class Pembayaran {
     
 }
