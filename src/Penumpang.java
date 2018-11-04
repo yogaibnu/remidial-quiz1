@@ -23,5 +23,9 @@ public class Penumpang {
         this.nama = nama;
     }
     
-    
+    public String info() {
+        String info = "";
+        info += "Namma: " + nama + "\n";
+        return info;
+    }
 }
