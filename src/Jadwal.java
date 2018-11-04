@@ -32,5 +32,10 @@ public class Jadwal {
         this.tujuan = tujuan;
     }
     
-    
+    public String info() {
+        String info = "";
+        info += "Jadwal Penerbangan: " + jadwal + "\n";
+        info += "Tujuan: " + tujuan + "\n";
+        return info();
+    }
 }
