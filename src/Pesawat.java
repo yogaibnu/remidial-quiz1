@@ -14,4 +14,7 @@ public class Pesawat {
     private int biaya;
     private Jadwal jadwal;
     
+    public Pesawat() {
+        
+    }
 }
